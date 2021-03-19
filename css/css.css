@@ -6,3 +6,7 @@ p{
 .title{
   text-align: center;
 }
+
+.links{
+  color: rgba(0, 0, 255, 0.863);
+}
