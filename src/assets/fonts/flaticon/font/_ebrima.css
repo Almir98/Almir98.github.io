@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ebrima';
+    
+    src: url("../font/ebrima.woff") format("woff"),
+         url("../font/ebrima.woff2") format("woff2"),
+         url("../font/ebrima.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

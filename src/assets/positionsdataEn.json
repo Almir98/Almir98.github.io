@@ -1,0 +1,88 @@
+{
+    "positions":[
+        {
+            "id":1,
+            "positionName":"Embedded software engineer ",
+            "shortDescription":"3 open positions",
+            "openings":"x3",
+            "detailDescription":"ProSafety is an international development service provider in the field of embedded systems. ProSafety develops software solutions for applications in process, industrial and mobile automation, power electronics, railways and medical engineering based on specific customer requirements. High standards in certified processes of our development areas ensure the required quality. We offer our customers complete product development for global market. One special focus of our activity is functional safety. Flexibility is one of our great strengths: We see ourselves as a service company - all geared to the requirements of our customers. As a technology provider, we build up know-how with foresight and continuously train our employees. A successful and future-oriented company structure creates space for further growth.",
+            
+            "profileArray":
+            [
+                "Dipl.-Ing. (DH/FH/TH), M. Eng., B. Eng., M.Sc., B.Sc. of corresponding subject area or comparable qualification",
+                "Professional experience in development of embedded systems is desirable, but we also give qualified graduates a chance",
+                "High analytical skills, systematic and methodical",
+                "Confident handling of the C programming language and object-oriented programming in C++",
+                "Expertise with version control systems, development environments, compilers and software design tools",
+                "Good understanding of electronics and safe handling of measuring equipment",
+                "Knowledge of fieldbus protocols, coding standards (MISRA) and experience with ARM/Cortex-based microcontrollers are an advantage",
+                "Languages: English is required, German is desirable",
+                "Communicative, creative, flexible and strong team spirit"
+            ],
+            "responsibilitiesArray":
+            [
+                "Participation in system and requirements analysis with our customers",
+                "Creating software architectures",
+                "Specification and implementation of functional requirements",
+                "Verify specifications and prototypes by designing and running static and dynamic tests",
+                "Implementation of changed requirements and impact analysis of software",
+                "Support with system validation",
+                "Creating development-accompanying documentation",
+                "Coordination with internal partners and suppliers"
+            ],
+
+            "offerArray":
+            [
+                "Innovative and varied tasks in the development of tailor-made solutions for our customers",
+                "An attractive workplace",
+                "Convenient location as well as very good accessibility by public transport",
+                "High degree of self-determination and short decision-making paths",
+                "Collegial cooperation and flat hierarchies",
+                "Internal and external training and further education opportunities",
+                "Flexible working hours"
+            ]
+        },
+       
+        {
+            "id":2,
+            "positionName":"General application",
+            "shortDescription":"We are always looking for talents",
+            "detailDescription":"ProSafety is an international development service provider in the field of embedded systems. ProSafety develops software solutions for applications in process, industrial and mobile automation, power electronics, railways and medical engineering based on specific customer requirements. High standards in certified processes of our development areas ensure the required quality. We offer our customers complete product development for global market. One special focus of our activity is functional safety. Flexibility is one of our great strengths: We see ourselves as a service company - all geared to the requirements of our customers. As a technology provider, we build up know-how with foresight and continuously train our employees. A successful and future-oriented company structure creates space for further growth.",
+
+            "profileArray":
+            [
+                "Dipl.-Ing. (DH/FH/TH), M. Eng., B. Eng., M.Sc., B.Sc. of corresponding subject area or comparable qualification",
+                "Professional experience in development of embedded systems is desirable, but we also give qualified graduates a chance",
+                "High analytical skills, systematic and methodical",
+                "Confident handling of the C programming language and object-oriented programming in C++",
+                "Expertise with version control systems, development environments, compilers and software design tools",
+                "Good understanding of electronics and safe handling of measuring equipment",
+                "Knowledge of fieldbus protocols, coding standards (MISRA) and experience with ARM/Cortex-based microcontrollers are an advantage",
+                "Languages: English is required, German is desirable",
+                "Communicative, creative, flexible and strong team spirit"
+            ],
+            "responsibilitiesArray":
+            [
+                "Participation in system and requirements analysis with our customers",
+                "Creating software architectures",
+                "Specification and implementation of functional requirements",
+                "Verify specifications and prototypes by designing and running static and dynamic tests",
+                "Implementation of changed requirements and impact analysis of software",
+                "Support with system validation",
+                "Creating development-accompanying documentation",
+                "Coordination with internal partners and suppliers"
+            ],
+
+            "offerArray":
+            [
+                "Innovative and varied tasks in the development of tailor-made solutions for our customers",
+                "An attractive workplace",
+                "Convenient location as well as very good accessibility by public transport",
+                "High degree of self-determination and short decision-making paths",
+                "Collegial cooperation and flat hierarchies",
+                "Internal and external training and further education opportunities",
+                "Flexible working hours"
+            ]
+        }
+    ]
+}
