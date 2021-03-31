@@ -9,7 +9,6 @@ export class CommunicationService {
   public share = this.content.asObservable();
 
   constructor() {}
-
   sendMessage(message: string): any {
     this.content.next(message);
   }
