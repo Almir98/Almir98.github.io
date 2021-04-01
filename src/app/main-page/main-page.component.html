@@ -26,8 +26,6 @@
                               (click)="scrollToSection('jobs')">{{"navbar.jobs" | translate}}</a></li>
                         <li><a [class]="!scrolled? 'nav-link': 'nav-link scrolled'"
                               (click)="scrollToSection('contact')">{{"navbar.contact" | translate}}</a></li>
-                        <li><a [class]="!scrolled? 'nav-link': 'nav-link scrolled'"
-                              (click)="scrollToSection('location')">{{"navbar.location" | translate}}</a></li>
                         <li>
                            <select [class]="!scrolled? 'select-list': 'select-list-scrolled-style'"
                               [(ngModel)]="selectedLang" name="selectLang" (change)="setTranslateLanguage()">
@@ -64,5 +62,4 @@
    <section id="location">
    </section>
 
-   <app-footer-page></app-footer-page>
 </div>

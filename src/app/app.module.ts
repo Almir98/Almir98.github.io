@@ -11,7 +11,6 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { FormsModule } from '@angular/forms';
-import { FooterPageComponent } from './footer-page/footer-page.component';
 import { ParticlesModule } from 'angular-particle';
 import { CommunicationService } from './_services/communication.service';
 import { AboutPageComponent } from './about-page/about-page.component';
@@ -26,7 +25,6 @@ import { MainPageComponent } from './main-page/main-page.component';
     AppComponent,
       HomePageComponent,
       ContactPageComponent,
-      FooterPageComponent,
       AboutPageComponent,
       OpenPositionsComponent,
       PositionPageComponent,
