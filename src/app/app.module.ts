@@ -20,7 +20,6 @@ import { PositionPageComponent } from './position-page/position-page.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
 import { MainPageComponent } from './main-page/main-page.component';
-import { ServicesPageComponent } from './services-page/services-page.component';
  
 @NgModule({
   declarations: [																
@@ -32,7 +31,6 @@ import { ServicesPageComponent } from './services-page/services-page.component';
       OpenPositionsComponent,
       PositionPageComponent,
       MainPageComponent,
-      ServicesPageComponent
    ],
   imports: [
     BrowserModule,
