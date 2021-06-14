@@ -44,7 +44,7 @@ footer{
 .image-movie{
     width: 100%;
     min-height: 210px;
-    background-size: contain;
+    background-size: cover;
 }
 
 .image-herald{
