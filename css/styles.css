@@ -43,7 +43,7 @@ footer{
 
 .image-movie{
     width: 100%;
-    min-height: 210px;
+    height: 220px;
     background-size: cover;
 }
 
@@ -62,7 +62,7 @@ footer{
 }
 
 .item{
-    min-height: 210px;
+    min-height: 220px;
 }
 
 .project-image{
