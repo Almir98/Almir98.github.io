@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -36,23 +37,50 @@
                 <a href="#education">Education</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+
             </li>
             <li>
-                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
             </li>
         </ul>
     </header>
     <!-- End header -->
 
+    <!-- count particles -->
+    <div class="count-particles">
+        <span class="js-count-particles"></span>
+    </div>
+
+
     <div id="lead">
         <div id="lead-content">
             <h1 class="main-title">Almir Tihak</h1>
-            <h2>Software Engineer</h2>
-            <!-- <a href="#" class="btn-rounded-white">Download Resume</a> -->
+            <h2 class="subtitle">Software Engineer I .NET </h2>
+            <div class="social center">
+                <ul>
+                    <li>
+                        <a href="mailto:almir.tihak98@hotmail.com" target="_blank"><i class="fa fa-envelope"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/almir-tihak/" target="_blank"><i class="fa fa-linkedin"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Almir98" target="_blank"><i class="fa fa-github"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCBBVqcDbZbp8aqZEryZJhqA" target="_blank"><i
+                                class="fa fa-youtube" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <a href="#" class="btn-rounded-white">Download Resume</a>  -->
+
         </div>
         <!-- End #lead-content -->
-
         <div id="lead-overlay"></div>
 
         <div id="lead-down">
@@ -62,21 +90,39 @@
         </div>
         <!-- End #lead-down -->
     </div>
+
+    </div>
+
     <!-- End #lead -->
 
     <div id="about">
+        <h2 class="heading">About me</h2>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                <div class="col-md-4 center">
+                    <div class="photo-container">
+                        <img src="./images/ja.JPG" alt="Your Photo">
+                    </div>
+
                 </div>
                 <div class="col-md-8 content">
-                    Software Engineer with a demonstrated history of working in the computer software industry. Skilled in .NET Core, Object-Oriented Programming (OOP),
-                    Clean architecture, REST API Services, JavaScript, Unit testing and experience with SQL, Jenkins (CI/CD), AWS, Git and similar technologies.
-                    Strong engineering professional graduated from Faculty of Information Technologies, University "Džemal Bijedić"​ in Mostar on a Master's degree.<br>
-                    Currently learning the full potential of Clean Architecture in .NET and GitHub actions for CI/CD. <br><br>
+                    I'm 25 years old Software Engineer with 3+ years of experience in commercial industry, mainly in .NET. 
+                    Engineer with a demonstrated history of working in the computer software industry. Primarily focused on Microsoft technologies. <br>
+                    <strong>
+                        Detailed perfectionist passionate about everyday learning and problem solving to create functional logic and operations of a software application. <br>
+                    </strong>
+                    Graduated Master's degree from the Faculty of Information Technologies, University "Džemal Bijedić"​ in Mostar.
+                    <br><br>
+
+                    Skilled in .NET, Clean Architecture, REST API Services, OOP and SOLID principles, Rabbit MQ, MS SQL, Unit testing, JavaScript and experience with Jenkins (CI/CD), Angular, HTML, CSS, Git, Cloud platforms like Azure, AWS and other technologies.
+                    <br><br>
+
                     Team player, communicative, responsible person, well organized and great problem-solver are some of my best personal traits.
-                    Working towards becoming a software Solution Architect.
+                     Motivated and always ready for learning and acquiring new experiences. <br>
+                    <strong>
+                        Motivated and always ready for learning and acquiring new experiences.
+                    </strong> <br>
+                    My goal is to become a Software Architect one day.
                 </div>
             </div>
         </div>
@@ -89,32 +135,41 @@
             <div data-date="August 2021 – Present">
                 <h3>Software Engineer</h3>
                 <h4>Klika LLC</h4>
-                <p class ="experience-text">
-                    I work as a software engineer in the C# programming language. The team I work with is international, and our clients are from Austria and USA.
-                    My tasks include designing software development in .NET, working with microservice architecture and all the other technologies that are in trend.
-                    By applying agile methodologies, we were able to organize the production process, overcome challenges and place the product on the market.<br>
-                    I work daily with .NET, SQL, Jenkins pipelines for CI/CD, Docker, xUnit, AWS, Git and other popular tools.
+                <h5 class="experience-subtitle">Full-time</h5>
+                <p class="experience-text">
+                    I work as a software engineer in the C# programming language. The team I work with is international,
+                    and our clients are from Austria and USA.
+                    My tasks include designing software development in .NET, working with microservice architecture and
+                    all the other technologies that are in trend.
+                    By applying agile methodologies, we were able to organize the production process, overcome
+                    challenges and place the product on the market.<br>
+                    I work daily with .NET, SQL, Jenkins pipelines for CI/CD, Docker, xUnit, AWS, Git and other popular
+                    tools.
                 </p>
             </div>
-            <div data-date="June 2020 – August 2021">
+            <div data-date="May 2020 – August 2021">
                 <h3>Software Engineer</h3>
-                <h4>Devoted</h4>
-                <p class ="experience-text">
+                <h4>Devoted d.o.o.</h4>
+                <h5 class="experience-subtitle">Full-time</h5>
+                <p class="experience-text">
                     My day-to-day tasks include designing software development in C# programming, working with Azure
-                    resources such as REST API, SQL databases, Entity Framework Core, as well as implementing integration with external mobile platforms,
-                    service providers such as Edelivery, online payment, etc. Working on the development of a completely new product with responsibility
+                    resources such as REST API, SQL databases, Entity Framework Core, as well as implementing
+                    integration with external mobile platforms,
+                    service providers such as Edelivery, online payment, etc. Working on the development of a completely
+                    new product with responsibility
                     for many aspects of the process, truly engaged my technical, analytical and problem-solving skills.
                 </p>
             </div>
             <div data-date="January 2020 – Present">
                 <h3>Software Engineer</h3>
                 <h4>Freelance</h4>
-                <p class ="experience-text">
+                <h5 class="experience-subtitle">Contract</h5>
+                <p class="experience-text">
                     I work on various .NET projects.
                 </p>
             </div>
         </div>
-        </div>
+    </div>
     </div>
     <!-- End #experience -->
 
@@ -123,198 +178,18 @@
         <div class="education-block">
             <h3>Faculty of information technology, University Džemal Bijedić in Mostar</h3>
             <span class="education-date">Sept 2021 - Sept 2022</span>
-            <h4>Master of Information Technology, Computer Software Engineering</h4>
-            
+            <h4><strong>Master's Degree of Information Technology</strong></h4>
+            <h4>Computer Software Engineering</h4>
         </div>
 
         <div class="education-block">
             <h3>Faculty of information technology, University Džemal Bijedić in Mostar</h3>
-                <span class="education-date">Sept 2017 - Oct 2020</span>
-            <h4>Bachelor of Information Technology, Computer Software Engineering</h4>
+            <span class="education-date">Sept 2017 - Oct 2020</span>
+            <h4><strong>Bachelor's Degree of Information Technology</strong></h4>
+            <h4>Computer Software Engineering</h4>
         </div>
     </div>
     <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-
-                <!-- Skidata -->
-                <div class="project shadow-large item">
-                    <div class="project-image">
-                        <img class="image-movie" src="images/skidata.jpg" />
-                    </div>
-                    <div class="project-info">  
-                        <h3 class="project-title">SKIDATA</h3>
-                        <div class="content">
-                        It is a Microservices Architecture implemented using .NET 6 and AWS for the SKIDATA loyalty program users.
-                        Goal of the project is to provide users with discounts at entrances. The company that deals with the access of people and vehicles in: ski resorts,
-                        shopping centers, main airports, cities, sports stadiums, fairs. Skidata offers a wide range of business opportunities, starting with solutions
-                        for entrances to stadiums, airports, parking lots, eCharger stations for electric cars and many other innovative solutions.
-                        Tech stack used in project: .NET 6, Microservice architecture, xUnit, MS SQL, Docker, Jenkins, Amazon Web Services, Git and GitHub.
-                        </div>
-                        <a class="view-demo" href="https://www.skidata.com/segments" target="_blank">View Project</a>
-                    </div>
-                </div>
-
-                <!-- Onbe -->
-                <div class="project shadow-large item">
-                    <div class="project-image">
-                        <img class="image-movie" src="images/onbe.jpg" />
-                    </div>
-                    <div class="project-info">  
-                        <h3 class="project-title">Onbe</h3>
-                        <div class="content">
-                            Onbe Payments is an open-loop Visa® and MasterCard® prepaid program manager ready to deliver funds on your behalf in over nine currencies,
-                             safely and securely, and to more than 160 countries.
-                        </div>
-                        <br>
-                        <a class="view-demo" href="https://www.onbe.com/" target="_blank">View Project</a>
-                    </div>
-                </div>
-
-                <!-- Heralad -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img class="image-herald" src="images/herald.PNG" />
-                    </div>
-                    <div class="project-info">
-                        <h3 class="project-title">Herald (IoT, Microservices, API)</h3>
-                        <div class="content">
-                            A project developed by Devoted company, where I work and I participated in the development of the backend part of the application (REST API, Microservices part).
-                            <ul>
-                                <li>Mobile and web clients<br></li>
-                                <li>Data acquisition, processing, storage and transfer<br></li>
-                                <li>Alarms, trends, reports and other standard SCADA features<br></li>
-                                <li>Automated user notification<br></li>
-                                <li>Prepaid billing model with no upfront or hidden costs<br></li>
-                                <li>No maintenance expenses<br></li>
-                                <li>Two-way communication in real-time with all standard field devices<br></li>
-                            </ul>
-                        </div>
-                        <a class="view-demo" href="https://heraldservices.net/Account/LoginView" target="_blank">View Project</a>
-                    </div>
-                </div>
-
-                <!-- Smart Greenhouse -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img class="image" src="images/smart.PNG" />
-                    </div>
-                    <div class="project-info">
-                        <h3 class="project-title">Smart Greenhouse (Arduino IoT and ASP .NET MVC Project)</h3>
-                        <div class="content">
-                            Final thesis at the Faculty of Information Technology Mostar. Primarily an Arduino project with temperature and humidity sensor, a light sensor, a fan and motors that will simulate opening windows.
-                            By increasing the temperature in the greenhouse, Arduino motors automatically open the windows and the fan starts to work in order
-                            to refresh the air in the interior of the greenhouse. Also if the light level inside the greenhouse is insufficient
-                            for the growth of some type of vegetable, the light sensor detects this and automatically turns on the light in the
-                            greenhouse to simulate the operation of the assimilation lamp. The Arduino collects data from sensors then the data
-                            is stored in a database. ASP .NET MVC application that serves a professional person to display graphical and tabular
-                            data for a period of time collected from arduino sensors stored in a database.
-                            YouTube video in which are explained the functionalities of the project:
-                                <a class="view-demo" href="https://www.youtube.com/watch?v=fGbvo1X5QZc&t=1s&ab_channel=AlmirTihak" target="_blank">SmartGreenhouse YouTube</a>.
-                               Production link of website: 
-                            <a class="view-demo" href="https://s94.wrd.app.fit.ba/" target="_blank">SmartGreenhouse</a>
-                        </div>
-                        <br>
-                        <a class="view-demo" href="https://github.com/Almir98/SmartGreenhouse" target="_blank">View Project</a>
-                    </div>
-                </div>      
-
-                <!-- Smart House -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img class="image" src="images/smarthousefront.png" />
-                    </div>
-                    <div class="project-info">
-                        <h3 class="project-title">Smart House </h3>
-                        <div class="content">
-                            Everything you need to know is on my Linkedin profile where I wrote about that project.
-                            <a class="view-demo" href="https://www.linkedin.com/posts/almir-tihak_iot-development-arduinoproject-activity-7004035947134619648-lJYZ?utm_source=share&utm_medium=member_desktop" target="_blank">LinkedIn post</a>
-                            <br><br><br>
-                               Production link of website: 
-                            <a class="view-demo" href="https://p2080.app.fit.ba/" target="_blank">Smart House</a>
-                        </div>
-                        <br>
-                        <a class="view-demo" href="https://github.com/Almir98/SmartGreenhouse" target="_blank">View Project</a>
-                    </div>
-                </div>      
-
-                <!-- Movies -->
-                <div class="project shadow-large item">
-                    <div class="project-image">
-                        <img class="image-movie" src="images/mov.PNG" />
-                    </div>
-                    <div class="project-info">  
-                        <h3 class="project-title">Movies application (Angular project)</h3>
-                        <div class="content">
-                            The application uses The Movie Database (TMDB) - The Movie Database API.
-                            Application where you can search movies by genres, various TV series and where you can see the latest and most popular movies.
-                            It will also be possible to view TV series, actors, details about actors and movies and the series in which they have acted.
-                            I like to watch movies and the idea was to make a website to get the latest movies as easy as possible.
-                            Link for published application: <a class="view-demo" href="https://trusting-raman-744780.netlify.app/" target="_blank">Movies&TV application</a>
-                        </div>
-                        <br>
-                        <a class="view-demo" href="https://github.com/Almir98/MovieApp" target="_blank">View Project</a>
-                    </div>
-                </div>
-
-                <!-- Rent a car -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img class="image-shop" src="images/rent.PNG" />
-                    </div>
-                    <div class="project-info">
-                        <h3 class="project-title">Rent a car (.NET Core REST API, UWP and Xamarin Cross-Platform Project)</h3>
-                        <div class="content">
-
-                            ASP .NET Core, REST API, Windows forms, Xamarin mobile application, ML .NET Recommender system, Docker. Primarily a mobile application where the user can view available vehicles at branches, book vehicles and after
-                            booking leave an impression and rating of the vehicle. This project contains 3 interconnected applications:REST
-                            API C# ASP.NET Core application,Windows Forms application and Xamarin mobile application.
-                            The project also uses the ML .NET recommender system where the user is offered the best rated vehicles. 
-                            Docker will be used to deliver the application.
-                        </div>
-                        <a class="view-demo" href="https://github.com/Almir98/Rent-a-Car" target="_blank">View Project</a>
-                    </div>
-                </div>
-
-                <!-- Devoted website -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img class="image-shop" src="images/devoted.png" />
-                    </div>
-                    <div class="project-info">
-                        <h3 class="project-title">Devoted Website (Angular project)</h3>
-                        <div class="content">
-                            Website for the company Devoted of which I am an employee. Production link of website: 
-                            <a class="view-demo" href="https://www.devoted.ba/" target="_blank">Devoted | Software Solutions for your enterprise</a>
-                        </div>
-                        <br>
-                        <a class="view-demo" href="https://github.com/Almir98/Devoted-website" target="_blank">View Project</a>
-                    </div>
-                </div>
-
-                <!-- Prosafety website -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img class="image-shop" src="images/pro.png" />
-                    </div>
-                    <div class="project-info">
-                        <h3 class="project-title">ProSafety Website (Angular project)</h3>
-                        <div class="content">
-                            Website for the ProSafety company. Production link of website: 
-                            <a class="view-demo" href="https://prosafety.ba/" target="_blank">ProSafety | Safety security eXperts</a>
-                        </div>
-                        <br>
-                        <a class="view-demo" href="https://github.com/Almir98/ProSafety-Website" target="_blank">View Project</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
@@ -333,13 +208,14 @@
             <ul>
                 <li>.NET</li>
                 <li>Web API</li>
-                <li>RESful API</li>
-                <li>ASP NET MVC</li>
+                <li>REST API</li>
+                <li>ASP .NET MVC</li>
                 <li>Entity Framework Core</li>
                 <li>Dapper</li>
                 <li>Angular 6+</li>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li>TypeScript</li>
                 <li>JavaScript</li>
                 <li>JSON</li>
                 <li>JQuery</li>
@@ -350,8 +226,8 @@
         <div>
             <h3>Architecture</h3>
             <ul>
-                <li>Clean architecture</li>
-                <li>Onion architecture</li>
+                <li>Clean Architecture</li>
+                <li>Onion Architecture</li>
                 <li>MVC</li>
                 <li>Monolith</li>
                 <li>Microservices</li>
@@ -361,7 +237,7 @@
         <div>
             <h3>Database</h3>
             <ul>
-                <li>SQL</li>
+                <li>MS SQL</li>
                 <li>Redis</li>
             </ul>
             <br>
@@ -385,18 +261,22 @@
             <ul>
                 <li>OOP</li>
                 <li>Unit Testing</li>
-                <li>Integration Testing</li>
-                <li>Swagger</li>
+                <li>Rabbit MQ</li>
+                <li>Hangfire</li>
+                <li>Quartz .NET</li>
+                <li>WatchDog</li>
+                <li>ELK</li>
+                <li>Docker</li>
+                <li>Microsft Identity</li>
+                <li>OAuth 2.0</li>
+                <li>Docker</li>
+                <li>CI/CD concepts</li>
                 <li>Postman</li>
-                <li>Visual Studio</li>
-                <li>Visual Studio Code</li>
+                <li>Swagger</li>
                 <li>Windows Forms</li>
                 <li>Scrum</li>
-                <li>CI/CD concepts</li>
-                <li>Docker</li>
                 <li>Microsoft Office</li>
-                <li>Xamarin Forms</li>
-                <li>Azure Blob Storage</li>
+                <li>Xamarin</li>
                 <li>Microsoft Power Platform</li>
                 <li>Power Automate</li>
                 <li>Power Apps</li>
@@ -405,39 +285,259 @@
         </div>
     </div>
 
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+
+                <!-- Skidata -->
+                <div class="project shadow-large item">
+                    <div class="project-image">
+                        <img class="image-movie" src="images/skidata.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">SKIDATA</h3>
+                        <div class="content">
+                            It is a Microservices Architecture implemented using .NET 6 and AWS for the SKIDATA loyalty
+                            program users.
+                            Goal of the project is to provide users with discounts at entrances. The company that deals
+                            with the access of people and vehicles in: ski resorts,
+                            shopping centers, main airports, cities, sports stadiums, fairs. Skidata offers a wide range
+                            of business opportunities, starting with solutions
+                            for entrances to stadiums, airports, parking lots, eCharger stations for electric cars and
+                            many other innovative solutions.
+                            Tech stack used in project: .NET 6, Microservice architecture, xUnit, MS SQL, Docker,
+                            Jenkins, Amazon Web Services, Git and GitHub.
+                        </div>
+                        <a class="view-demo" href="https://www.skidata.com/segments" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Onbe -->
+                <div class="project shadow-large item">
+                    <div class="project-image">
+                        <img class="image-movie" src="images/onbe.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Onbe</h3>
+                        <div class="content">
+                            Onbe Payments is an open-loop Visa® and MasterCard® prepaid program manager ready to deliver
+                            funds on your behalf in over nine currencies,
+                            safely and securely, and to more than 160 countries.
+                        </div>
+                        <br>
+                        <a class="view-demo" href="https://www.onbe.com/" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Heralad -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img class="image-herald" src="images/herald.PNG" />
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Herald (IoT, Microservices, API)</h3>
+                        <div class="content">
+                            A project developed by Devoted company, where I work and I participated in the development
+                            of the backend part of the application (REST API, Microservices part).
+                            <ul>
+                                <li>Mobile and web clients<br></li>
+                                <li>Data acquisition, processing, storage and transfer<br></li>
+                                <li>Alarms, trends, reports and other standard SCADA features<br></li>
+                                <li>Automated user notification<br></li>
+                                <li>Prepaid billing model with no upfront or hidden costs<br></li>
+                                <li>No maintenance expenses<br></li>
+                                <li>Two-way communication in real-time with all standard field devices<br></li>
+                            </ul>
+                        </div>
+                        <a class="view-demo" href="https://heraldservices.net/Account/LoginView" target="_blank">View
+                            Project</a>
+                    </div>
+                </div>
+
+                <!-- Smart Greenhouse -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img class="image" src="images/smart.PNG" />
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Smart Greenhouse (Arduino IoT and ASP .NET MVC Project)</h3>
+                        <div class="content">
+                            Final thesis at the Faculty of Information Technology Mostar. Primarily an Arduino project
+                            with temperature and humidity sensor, a light sensor, a fan and motors that will simulate
+                            opening windows.
+                            By increasing the temperature in the greenhouse, Arduino motors automatically open the
+                            windows and the fan starts to work in order
+                            to refresh the air in the interior of the greenhouse. Also if the light level inside the
+                            greenhouse is insufficient
+                            for the growth of some type of vegetable, the light sensor detects this and automatically
+                            turns on the light in the
+                            greenhouse to simulate the operation of the assimilation lamp. The Arduino collects data
+                            from sensors then the data
+                            is stored in a database. ASP .NET MVC application that serves a professional person to
+                            display graphical and tabular
+                            data for a period of time collected from arduino sensors stored in a database.
+                            YouTube video in which are explained the functionalities of the project:
+                            <a class="view-demo"
+                                href="https://www.youtube.com/watch?v=fGbvo1X5QZc&t=1s&ab_channel=AlmirTihak"
+                                target="_blank">SmartGreenhouse YouTube</a>.
+                            Production link of website:
+                            <a class="view-demo" href="https://s94.wrd.app.fit.ba/" target="_blank">SmartGreenhouse</a>
+                        </div>
+                        <br>
+                        <a class="view-demo" href="https://github.com/Almir98/SmartGreenhouse" target="_blank">View
+                            Project</a>
+                    </div>
+                </div>
+
+                <!-- Smart House -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img class="image" src="images/smarthousefront.png" />
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Smart House </h3>
+                        <div class="content">
+                            Everything you need to know is on my Linkedin profile where I wrote about that project.
+                            <a class="view-demo"
+                                href="https://www.linkedin.com/posts/almir-tihak_iot-development-arduinoproject-activity-7004035947134619648-lJYZ?utm_source=share&utm_medium=member_desktop"
+                                target="_blank">LinkedIn post</a>
+                            <br><br><br>
+                            Production link of website:
+                            <a class="view-demo" href="https://p2080.app.fit.ba/" target="_blank">Smart House</a>
+                        </div>
+                        <br>
+                        <a class="view-demo" href="https://github.com/Almir98/SmartGreenhouse" target="_blank">View
+                            Project</a>
+                    </div>
+                </div>
+
+                <!-- Movies -->
+                <div class="project shadow-large item">
+                    <div class="project-image">
+                        <img class="image-movie" src="images/mov.PNG" />
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Movies application (Angular project)</h3>
+                        <div class="content">
+                            The application uses The Movie Database (TMDB) - The Movie Database API.
+                            Application where you can search movies by genres, various TV series and where you can see
+                            the latest and most popular movies.
+                            It will also be possible to view TV series, actors, details about actors and movies and the
+                            series in which they have acted.
+                            I like to watch movies and the idea was to make a website to get the latest movies as easy
+                            as possible.
+                            Link for published application: <a class="view-demo"
+                                href="https://trusting-raman-744780.netlify.app/" target="_blank">Movies&TV
+                                application</a>
+                        </div>
+                        <br>
+                        <a class="view-demo" href="https://github.com/Almir98/MovieApp" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Rent a car -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img class="image-shop" src="images/rent.PNG" />
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Rent a car (.NET Core REST API, UWP and Xamarin Cross-Platform
+                            Project)</h3>
+                        <div class="content">
+
+                            ASP .NET Core, REST API, Windows forms, Xamarin mobile application, ML .NET Recommender
+                            system, Docker. Primarily a mobile application where the user can view available vehicles at
+                            branches, book vehicles and after
+                            booking leave an impression and rating of the vehicle. This project contains 3
+                            interconnected applications:REST
+                            API C# ASP.NET Core application,Windows Forms application and Xamarin mobile application.
+                            The project also uses the ML .NET recommender system where the user is offered the best
+                            rated vehicles.
+                            Docker will be used to deliver the application.
+                        </div>
+                        <a class="view-demo" href="https://github.com/Almir98/Rent-a-Car" target="_blank">View
+                            Project</a>
+                    </div>
+                </div>
+
+                <!-- Devoted website -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img class="image-shop" src="images/devoted.png" />
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Devoted Website (Angular project)</h3>
+                        <div class="content">
+                            Website for the company Devoted of which I am an employee. Production link of website:
+                            <a class="view-demo" href="https://www.devoted.ba/" target="_blank">Devoted | Software
+                                Solutions for your enterprise</a>
+                        </div>
+                        <br>
+                        <a class="view-demo" href="https://github.com/Almir98/Devoted-website" target="_blank">View
+                            Project</a>
+                    </div>
+                </div>
+
+                <!-- Prosafety website -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img class="image-shop" src="images/pro.png" />
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">ProSafety Website (Angular project)</h3>
+                        <div class="content">
+                            Website for the ProSafety company. Production link of website:
+                            <a class="view-demo" href="https://prosafety.ba/" target="_blank">ProSafety | Safety
+                                security eXperts</a>
+                        </div>
+                        <br>
+                        <a class="view-demo" href="https://github.com/Almir98/ProSafety-Website" target="_blank">View
+                            Project</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
     <footer>
         <div class="container">
             <div class="row">
                 <div class=" col-sm-5 copyright">
-                <p id="footer-subtitle">
-                    Copyright &copy; 2021 Almir Tihak
-                </p>
+                    <p id="footer-subtitle">
+                        Copyright &copy; 2023 Almir Tihak
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Almir98" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/almir-tihak/" target="_blank"><i class="fa fa-linkedin"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCBBVqcDbZbp8aqZEryZJhqA" target="_blank"><i
+                                    class="fa fa-youtube" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-sm-2 top">
-                <span id="to-top">
-                    <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                </span>
-            </div>
-            <div class="col-sm-5 social">
-                <ul>
-                    <li>
-                        <a href="https://github.com/Almir98" target="_blank"><i class="fa fa-github"
-                                aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/almir-tihak/" target="_blank"><i class="fa fa-linkedin"
-                                aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCBBVqcDbZbp8aqZEryZJhqA" target="_blank"><i
-                                class="fa fa-youtube" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
         </div>
     </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+
 </body>
+
 </html>
