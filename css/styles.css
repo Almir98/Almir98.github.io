@@ -129,8 +129,10 @@
         margin-top: 35px;
     }
 
-    .photo-container {
-        width: 330px;
-        height: 300px;
+    .photo-container{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
